@@ -11,7 +11,7 @@ fn make_sound() -> String {
 }
 
 fn main() {
-    for i in 0..8 {
+    for i in 0..16 {
         print!("{} ", make_sound());
     }
     println!("");
